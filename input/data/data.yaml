@@ -1,0 +1,6 @@
+names:
+    - mitochondrion
+nc: 1
+# test: /root/WSL-projects/Mitochondria_segmentation/Research_YOLO8/input/data/test/images
+train: /root/WSL-projects/Mitochondria_segmentation/Research_YOLO8/input/data/train/images
+val: /root/WSL-projects/Mitochondria_segmentation/Research_YOLO8/input/data/test/images
