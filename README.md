@@ -132,7 +132,7 @@ In a comparative experiment with this dataset, I evaluated both Detectron2 and Y
 
 ##### Using the source code for development
 
--   Fork/clone this repository (https://github.com/LeoUtas/bird_classification_research.git).
+-   Fork/clone this repository (https://github.com/LeoUtas/Mitochondria_segmentation_research_YOLOv8.git).
 -   First thing first, before proceeding, ensure that you are in the root directory of the project.
 -   Get the docker container ready:
 
