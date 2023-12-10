@@ -10,7 +10,6 @@
     <li><a href="#the-design">The design</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#how-to-use-the-source-code">How to use the source code</a></li>
-    <li><a href="#the-bottom-line">The Bottom Line</a></li>
     <li><a href="#reference">Reference</a></li>
   </ol>
 </details>
@@ -99,7 +98,7 @@ Model performance metrics
 </h6>
 
 <p align="center">
-    <img src="models/test0/train/results.png" alt="" width="820">
+    <img src="media/results.png" alt="" width="820">
 </p>
 
 <br>
@@ -124,7 +123,7 @@ Visualization of the ground truth for the predicted image (name: test_001.png)
 
 <br>
 
-In a comparative experiment with this dataset, I evaluated both Detectron2 and YOLOv8. The results indicated that, for this particular task, Detectron2 demonstrated superior performance over YOLOv8 (see <a href="https://mito-app-651cbfda9bde.herokuapp.com/"> comparison images)</a>. However, in some cases, YOLOv8 is better for the task of object detection.
+In a comparative experiment with this dataset, I evaluated both Detectron2 and YOLOv8. The results indicated that, for this particular task, Detectron2 demonstrated superior performance over YOLOv8 (see <a href="https://mito-app-651cbfda9bde.herokuapp.com/"> comparison images)</a>. However, in some cases, YOLOv8 performed better on the task of object detection.
 
 <br>
 
@@ -171,8 +170,6 @@ In a comparative experiment with this dataset, I evaluated both Detectron2 and Y
 ```cmd
 docker stop <name of the container>
 ```
-
-### The bottom line
 
 I'm excited to share this repository! Please feel free to explore its functionalities. Thank you for this far. Have a wonderful day ahead!
 
