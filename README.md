@@ -17,7 +17,7 @@
 
 ### Introduction
 
-This repository contains the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. The architecture of You Only Look Once framework (i.e., <a href="https://github.com/facebookresearch/detectron2/blob/main/README.md"> YOLOv8 </a>) has been utilized as the main tool for this task.
+This repository contains the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. The architecture of You Only Look Once framework (i.e., <a href="https://github.com/ultralytics/ultralytics"> YOLOv8 </a>) has been utilized as the main tool for this task.
 
 ### Technical tools
 
