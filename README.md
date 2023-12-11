@@ -129,47 +129,29 @@ In a comparative experiment with this dataset, I evaluated both Detectron2 and Y
 
 ### How to use the source code
 
-##### Using the source code for development
+##### Using the source code
 
 -   Fork/clone this repository (https://github.com/LeoUtas/Mitochondria_segmentation_research_YOLOv8.git).
 -   First thing first, before proceeding, ensure that you are in the root directory of the project.
--   Get the docker container ready:
-
-    -   Run docker build (it might take a while for installing all the required dependencies to your local docker image).
-
-    ```cmd
-    docker build -t <name of the docker image> .
-    ```
-
-    -   Run a docker container in an interactive mode (once the docker image is built, you can run a docker container).
-
-    ```cmd
-    docker run -it -v "$(PWD):/app" <name of the docker image> /bin/bash
-    ```
-
-    -   Now, it should be running inside the interactive mode of the docker container to explore the code functionalities.
-
-    -   The YOLO8_0.py file is responsible for training the model. To comply with GitHub's file size restrictions, the trained results are not synchronized between the remote and local versions of this project.
-    -   It is recommended to train the model using GPU.
-
-    ```python
-    # ****** --------- ****** #
-    test_name = "name of the test"
-    note = ""
-    # ****** --------- ****** #
-    ```
-
-    -   When you're done, you can simply type "exit" to escape the development environment
-
-    ```
-    exit
-    ```
-
--   Also, stop running the container when you're done:
+-   Make a virtual environment (the following guide is for Windows users, you might need to adapt it to your OS, if needed)
 
 ```cmd
-docker stop <name of the container>
+python -m venv venv
 ```
+
+-   Activate the venv using Powershell
+
+```cmd
+.\venv\Scripts\Activate.ps1
+```
+
+-   Install required dependencies
+
+```cmd
+pip install -r requirements.txt
+```
+
+-   It might take a while for completing the installation. Once, the installation is done, you're good to go for exploring the code functionalities.
 
 I'm excited to share this repository! Please feel free to explore its functionalities. Thank you for this far. Have a wonderful day ahead!
 
